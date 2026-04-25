@@ -35,8 +35,11 @@ ollama serve
 ### 3. (Optional) Seed sample data
 python seed_sample_data.py
 ### 4. Run app
+```bash
 streamlit run app.py
-🧠 Tech Stack
+```
+
+## 🧠 Tech Stack
 Python
 Streamlit
 Ollama (local LLM)
@@ -44,13 +47,15 @@ JSON (local storage)
 📂 Data Storage
 
 ### All journal entries are stored locally in:
-
+```bash
 journal_data/YYYY-MM-DD.json
-🔒 Privacy
+```
+## 🔒 Privacy
 No cloud storage
 No tracking
 Everything stays on your machine
-📌 Future Improvements
+
+## 📌 Future Improvements
 Voice journaling
 Emotion detection from text
 Weekly reports export (PDF)
