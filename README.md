@@ -21,18 +21,20 @@ This app is NOT a substitute for professional mental health support.
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
-
-2. Install Ollama
+```
+### 2. Install Ollama
 
 Download from: https://ollama.com
 
 Run:
-
+```bash
 ollama pull llama3
 ollama serve
-3. (Optional) Seed sample data
+```
+
+### 3. (Optional) Seed sample data
 python seed_sample_data.py
-4. Run app
+### 4. Run app
 streamlit run app.py
 🧠 Tech Stack
 Python
@@ -41,7 +43,7 @@ Ollama (local LLM)
 JSON (local storage)
 📂 Data Storage
 
-All journal entries are stored locally in:
+### All journal entries are stored locally in:
 
 journal_data/YYYY-MM-DD.json
 🔒 Privacy
