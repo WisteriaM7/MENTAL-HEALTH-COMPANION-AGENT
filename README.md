@@ -63,23 +63,6 @@ Multi-user login
 
 ---
 
-# ⚡ Important Fix (DO THIS)
-
-Your uploaded file is named:
-
-
-app(1).py
-
-
-👉 Rename it to:
-
-
-app.py
-
-
-Otherwise Streamlit won’t run correctly.
-
----
 
 # 🧠 What Each File Does (quick clarity)
 
